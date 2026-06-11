@@ -1,1 +1,4 @@
 /grafana/solucion
+.env
+.env.local
+.env.*.local
