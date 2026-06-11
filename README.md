@@ -20,54 +20,7 @@ cp example.env .env
 
 ### 2. Variables de Configuración
 
-El archivo `.env` debe contener:
-
-```env
-# Configuración general
-RESTART_POLICY=unless-stopped
-
-# Backend
-BACKEND_PORT=3001
-BACKEND_CONTAINER_NAME=lab-backend
-
-# Frontend
-FRONTEND_PORT=8080
-FRONTEND_CONTAINER_NAME=lab-frontend
-BACKEND_URL=http://backend:3001
-
-# Prometheus
-PROMETHEUS_PORT=9090
-PROMETHEUS_CONTAINER_NAME=lab-prometheus
-PROMETHEUS_VERSION=v2.54.1
-
-# Node Exporter
-NODE_EXPORTER_PORT=9100
-NODE_EXPORTER_CONTAINER_NAME=lab-node-exporter
-NODE_EXPORTER_VERSION=v1.8.2
-
-# cAdvisor
-CADVISOR_PORT=8081
-CADVISOR_CONTAINER_NAME=lab-cadvisor
-CADVISOR_VERSION=v0.49.1
-
-# Loki
-LOKI_PORT=3100
-LOKI_CONTAINER_NAME=lab-loki
-LOKI_VERSION=3.4.0
-
-# Alloy
-ALLOY_PORT=12345
-ALLOY_CONTAINER_NAME=lab-alloy
-ALLOY_VERSION=v1.10.0
-
-# Grafana (CREDENCIALES SENSIBLES - Cambiar en producción)
-GRAFANA_PORT=3000
-GRAFANA_CONTAINER_NAME=lab-grafana
-GRAFANA_VERSION=12.4.0
-GF_SECURITY_ADMIN_USER=admin
-GF_SECURITY_ADMIN_PASSWORD=GrafanaSecurePass2024!@#
-GF_USERS_DEFAULT_THEME=light
-```
+Lo que debe contener el archivo `.env` se encuentra en el archivo example.env
 
 **Recomendaciones de seguridad:**
 - Cambiar `GF_SECURITY_ADMIN_PASSWORD` por una contraseña fuerte
