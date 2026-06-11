@@ -16,8 +16,7 @@ cp example.env .env
 
 # O crear uno manualmente con las variables necesarias (ver sección de Variables)
 ```
-
-⚠️ **IMPORTANTE**: El archivo `.env` contiene credenciales sensibles y **NO debe ser versionado** en Git. Se encuentra en `.gitignore` para proteger tus credenciales.
+**IMPORTANTE**: El archivo `.env` contiene credenciales sensibles y **NO debe ser versionado** en Git. Se encuentra en `.gitignore` para proteger tus credenciales.
 
 ### 2. Variables de Configuración
 
