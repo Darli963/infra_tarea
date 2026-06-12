@@ -1,4 +1,14 @@
 /grafana/solucion
+
+# Dependencias
+**/node_modules/
+
+# Variables de entorno locales
 .env
-.env.local
-.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Archivos del sistema
+.DS_Store
